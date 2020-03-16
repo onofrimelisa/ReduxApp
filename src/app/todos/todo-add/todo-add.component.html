@@ -1,0 +1,7 @@
+<header class="header">
+    <h1>Today's tasks</h1>
+    <p class="info">You can add, delete, edit or mark as completed a task for today. In order to edit, double click on the task and then press enter.</p>
+
+    <input [formControl]="txtInput" class="new-todo" placeholder="What needs to be done?" autofocus (keyup.enter)="agregar()">
+
+</header>
